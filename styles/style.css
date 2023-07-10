@@ -28,7 +28,9 @@ button {
     font-size: large;
 }
 
-.section-2 h1 {
+.section-2,
+.section-6,
+footer h1 {
     text-align: center;
 }
 
@@ -49,7 +51,9 @@ button {
 
 .flower-feature2 {
     display: flex;
-    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
 
 }
 
@@ -61,5 +65,19 @@ button {
 }
 
 .subscribe {
+    text-align: center;
+}
+
+span {
+    color: pink;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.footer-text {
     text-align: center;
 }
