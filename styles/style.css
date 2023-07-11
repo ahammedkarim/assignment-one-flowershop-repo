@@ -5,13 +5,13 @@ body {
 
 .section-1 {
     display: flex;
-    background-color: lightpink;
+    background-color: rgb(217, 189, 194);
     background-image: cover;
     margin-top: 0;
     margin-left: 0;
     font-size: 2em;
     font-weight: 700;
-    padding: 100px 100px 40px 50px;
+    padding: 70px 100px 10px 70px;
 
 
 
