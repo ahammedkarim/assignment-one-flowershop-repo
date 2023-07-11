@@ -6,12 +6,12 @@ body {
 .section-1 {
     display: flex;
     background-color: rgb(217, 189, 194);
-    background-image: cover;
+    /* background-image: cover; */
     margin-top: 0;
     margin-left: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 700;
-    padding: 70px 100px 10px 70px;
+    padding: 100px 100px 0px 100px;
 
 
 
@@ -24,17 +24,17 @@ body {
 }
 
 button {
-    border: 10px solid rgb(207, 203, 203);
+    border: 5px solid rgb(207, 203, 203);
     background-color: rgb(176, 10, 110);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     font-weight: 700;
     color: white;
     font-size: large;
 }
 
 .section-2,
-.section-6,
+
 footer h1 {
     text-align: center;
 }
@@ -43,10 +43,23 @@ footer h1 {
     margin-bottom: 40px;
 }
 
-.display {
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+#sec-2-img1 {
+    background-color: darksalmon;
+    border-radius: 50px;
 
 
+}
+
+#sec-2-img2 {
+    background-color: cadetblue;
+    border-radius: 50px;
+
+
+}
+
+#sec-2-img3 {
+    border-radius: 50px;
+    background-color: burlywood;
 }
 
 
@@ -60,17 +73,40 @@ footer h1 {
 
 .flower-feature2 {
     display: flex;
-    justify-content: space-between;
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-bottom: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: initial;
+
+    column-gap: 25px;
+
+
+
+}
+
+#png-1 {
+    background-color: chartreuse;
+
+}
+
+#png-2 {
+    background-color: rgb(198, 224, 172);
+
+}
+
+#png-3 {
+    background-color: rgb(0, 255, 238);
+
+}
+
+#png-4 {
+    background-color: rgb(0, 128, 255);
 
 }
 
 .section-3 {
     display: flex;
     justify-content: space-around;
-    background-color: gray;
+    background-color: rgb(203, 185, 185);
     margin-bottom: 50px;
 
 }
@@ -81,27 +117,26 @@ footer h1 {
 }
 
 span {
-    color: pink;
+    color: rgb(227, 109, 129);
 }
 
 footer {
     background-color: black;
     color: white;
-    padding: 100px;
+    padding: 50px;
 }
 
 .footer-text {
     text-align: center;
 }
 
-.section-6 {
-    margin-bottom: 20px;
-    display: block;
-}
+
 
 .image-container {
     position: relative;
     display: inline-block;
+    margin-left: 30px;
+    padding: 40px;
 }
 
 .image-button {
