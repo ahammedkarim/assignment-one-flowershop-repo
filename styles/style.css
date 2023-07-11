@@ -9,12 +9,17 @@ body {
     background-image: cover;
     margin-top: 0;
     margin-left: 0;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 100px 100px 40px 50px;
+
 
 
 }
 
 .half-width {
     width: 50%;
+
 
 }
 
@@ -34,6 +39,10 @@ footer h1 {
     text-align: center;
 }
 
+.section-2 {
+    margin-bottom: 40px;
+}
+
 .display {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
@@ -51,9 +60,10 @@ footer h1 {
 
 .flower-feature2 {
     display: flex;
-    width: 250px;
-    height: 250px;
-    flex-shrink: 0;
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 100px;
 
 }
 
@@ -61,11 +71,13 @@ footer h1 {
     display: flex;
     justify-content: space-around;
     background-color: gray;
+    margin-bottom: 50px;
 
 }
 
 .subscribe {
     text-align: center;
+
 }
 
 span {
@@ -80,4 +92,21 @@ footer {
 
 .footer-text {
     text-align: center;
+}
+
+.section-6 {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
